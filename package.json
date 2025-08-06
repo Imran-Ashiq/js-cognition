@@ -10,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "test": "node test.mjs",
+    "test": "vitest",
     "build": "tsc"
   },
   "repository": {
