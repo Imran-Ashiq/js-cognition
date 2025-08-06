@@ -1,22 +1,3 @@
-# js-cognition
-
-A simple, zero-config package for common AI tasks like sentiment analysis in JavaScript and TypeScript.
-
-## Installation
-
-```bash
-npm install js-cognition
-```
-
-## Usage
-
-```javascript
-import { analyzeSentiment } from 'js-cognition';
-
-const result = analyzeSentiment("I love this product!");
-console.log(result);
-// Output: { score: 3, label: 'positive', tokens: [...] }
-```
 <div align="center">
   <h1>🧠 js-cognition</h1>
   <p><strong>Effortless AI for Everyday JavaScript.</strong></p>
