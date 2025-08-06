@@ -1,6 +1,6 @@
 {
   "name": "js-cognition",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple, zero-config package for common AI tasks like sentiment analysis in JavaScript and TypeScript.",
   "type": "module",
   "main": "./dist/index.js",
