@@ -1,0 +1,43 @@
+{
+  "name": "js-cognition",
+  "version": "1.0.0",
+  "description": "A simple, zero-config package for common AI tasks like sentiment analysis in JavaScript and TypeScript.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "node test.mjs",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imran-Ashiq/js-cognition.git"
+  },
+  "keywords": [
+    "ai",
+    "sentiment",
+    "analysis",
+    "nlp",
+    "machine-learning",
+    "text-processing",
+    "typescript"
+  ],
+  "author": "Muhammad Imran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imran-Ashiq/js-cognition/issues"
+  },
+  "homepage": "https://github.com/Imran-Ashiq/js-cognition#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/sentiment": "^5.0.3",
+    "esbuild": "^0.23.0",
+    "sentiment": "^5.0.2",
+    "typescript": "^5.5.2",
+    "vitest": "^2.0.1"
+  }
+}
